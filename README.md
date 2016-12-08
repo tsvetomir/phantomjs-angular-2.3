@@ -5,7 +5,7 @@ Running version 2.3.0 of @angular/compiler in PhantomJS results in a runtime err
 > Uncaught SyntaxError: In strict mode code, functions can only be declared at top level or immediately within another function.
 
 The offending code can be found in `@angular/compiler/bundles/compiler.umd.js:26587`:
-```
+```js
   JitCompiler.prototype._createCompiledHostTemplate = function (compType, ngModule) {
       if (!ngModule) {
           throw new Error("Component " + stringify(compType) + " is not part of any NgModule or the module has not been imported into your module.");
