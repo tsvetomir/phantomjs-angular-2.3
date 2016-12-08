@@ -1,0 +1,15 @@
+{
+  "name": "phantomjs-angular-2.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/compiler": "2.3.0",
+    "phantomjs": "2.1.7"
+  }
+}
